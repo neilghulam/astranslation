@@ -6,6 +6,7 @@
 const engWords = ["cat", "dog", "tree", "", "", ""];
 
 
+
 // Loads words in english to the page.
 function loadWords() {
 
@@ -27,7 +28,7 @@ function loadWords() {
     elem.style.left = Math.round(Math.random() * fullWidth) + "px";
     elem.style.top = Math.round(Math.random() * fullHeight) + "px";
     f = document.body.appendChild(elem);
-    f.onmousemove = translate;
+    
 
        
 
@@ -155,7 +156,7 @@ ban.onclick = slide;
 
 
 function slide(){
-    
+    translate();
     const ban = document.getElementById("banner");
     let pos = 0;
     const id = setInterval(frame, 10);
