@@ -94,8 +94,7 @@ html {
     border: 5px solid rgb(67, 115, 19);
     box-shadow: #000;
     border-radius: 15px;
-    padding: 20px;
-    padding-top: 5px ;
+    padding: 10px;
     color: black; 
     transition: all 1s;
     
