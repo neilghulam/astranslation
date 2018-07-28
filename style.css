@@ -1,5 +1,8 @@
 
+html {
+    background-color: rgb(209, 226, 191);
 
+}
 
 #nav {
     margin: 0 auto;
@@ -11,15 +14,17 @@
 }
 
 .btn {
+    border: 3px solid rgb(67, 115, 19);
     margin: 10px;
     border-radius: 5px;
     font-weight: bold;
-    background-color: rgb(185, 184, 184);
+    background-color: rgb(162, 187, 137);
     padding: 5px 15px;
     text-align: center;
     display: inline-block;
     font-size: 12px;
     box-shadow: 5px  5px 5px rgb(95, 95, 131); 
+    font-size: 16px;
 }
 
 .btn:active {
@@ -32,14 +37,14 @@
     margin: 0 auto;
     margin-top: 250px;
     position: relative;
-    background-color: rgb(150, 150, 150);
-    border: 5px solid black;
+    background-color: rgb(162, 187, 137);
+    border: 5px solid rgb(96, 125, 66);
     box-shadow: #000;
     border-radius: 15px;
     padding: 20px;
     padding: 10px;
     height: 100px;
-    width: 600px;
+    width: 900px;
     z-index: 1;
     box-shadow: 10px 10px 5px grey;
     cursor: pointer;
@@ -52,16 +57,30 @@
     position: relative;
     margin: 0 auto;
     margin-top: -50px;
-    background-color: rgb(65, 65, 65);
-    border: 5px solid black;
+    background-color: rgb(162, 187, 137);
+    border: 5px solid rgb(96, 125, 66);
     box-shadow: #000;
     border-radius: 15px;
     padding: 20px;
     width: 900px;
     height: 500px;
-    color: white; 
+    color: black; 
     line-height: 1.5;
+    font-size: 18px;
 }
+
+#rights {
+    float: bottom;
+    position: static;
+    margin: 0 auto;
+    
+    
+
+    padding: 40px;
+    color: black; 
+    font-size: 18px;
+}
+
 
 
 
@@ -71,25 +90,43 @@
     margin-top: auto;
     
     display: inline-block;
-    background-color: rgb(65, 65, 65);
-    border: 5px solid black;
+    background-color: rgb(162, 187, 137);
+    border: 5px solid rgb(67, 115, 19);
     box-shadow: #000;
     border-radius: 15px;
     padding: 20px;
     padding-top: 5px ;
-    color: white; 
-
+    color: black; 
+    transition: all 1s;
     
    
 }
 
+
 .card-body1, .card-body2 {
     height: 300px;
-    background-color: rgb(65, 65, 65);
-    border: 5px solid black;
+    background-color: rgb(162, 187, 137);
+    border: 5px solid rgb(96, 125, 66);
     box-shadow: #000;
 }
 
+#con1:hover, #con2:hover {
+    transform: scale(1.1);
+}
+
+.card-title {
+    text-emphasis: bold;
+    font-size: 24px;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.card-img-top {
+    padding: 10px;
+   
+}
 
 
 img {
