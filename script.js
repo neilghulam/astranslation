@@ -27,7 +27,7 @@ const clear = () => {
 const moveBanner = () => {
     const ban = document.getElementById("banner");
     let pos = 0;
-    const id = setInterval(frame, 10);
+    const id = setInterval(frame);
     function frame() {
         if (pos === -170) {
             clearInterval(id);

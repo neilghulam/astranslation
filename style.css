@@ -1,6 +1,6 @@
 
 html {
-    background-color: rgb(209, 226, 191);
+    background-color: rgb(160, 164, 123);
 
 }
 
@@ -41,7 +41,7 @@ html {
     border: 5px solid rgb(96, 125, 66);
     box-shadow: #000;
     border-radius: 15px;
-    padding: 20px;
+    padding: 10px;
     padding: 10px;
     height: 100px;
     width: 900px;
@@ -50,6 +50,43 @@ html {
     cursor: pointer;
 } 
 
+#lg {
+    float: left;
+    border: black solid 3px;
+    border-radius: 0px 25px;
+    margin-left: 4px;
+    transition: all 1s;
+   
+} 
+
+#lg:hover {
+    transform: scale(1.1);
+}
+
+#motto {
+    float: left;
+    padding-left: 180px;
+    padding-right: 20px;
+    margin-top: 10px;
+    transition: all 1s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+#ref {
+    float: right;
+    transition: all 1s;
+    margin-right: 4px;
+    margin-top: 15px;
+    transition: all 1s;
+    cursor: alias;
+}
+
+#ref:hover {
+    transform: scale(1.1);
+}
 
 
 
@@ -63,32 +100,27 @@ html {
     border-radius: 15px;
     padding: 20px;
     width: 900px;
-    height: 500px;
+    height: 550px;
     color: black; 
     line-height: 1.5;
-    font-size: 18px;
+    font-size: 14px;
+    text-align: justify;
 }
 
 #rights {
     float: bottom;
     position: static;
     margin: 0 auto;
-    
-    
-
-    padding: 40px;
+    padding: 30px;
     color: black; 
-    font-size: 18px;
+    font-size: 14px;
 }
-
-
 
 
 #con1, #con2 {
     position: static;
     margin: 20px;
     margin-top: auto;
-    
     display: inline-block;
     background-color: rgb(162, 187, 137);
     border: 5px solid rgb(67, 115, 19);
@@ -103,7 +135,7 @@ html {
 
 
 .card-body1, .card-body2 {
-    height: 300px;
+    height: 280px;
     background-color: rgb(162, 187, 137);
     border: 5px solid rgb(96, 125, 66);
     box-shadow: #000;
@@ -115,16 +147,22 @@ html {
 
 .card-title {
     text-emphasis: bold;
-    font-size: 24px;
+    font-size: 20px;
+    
 }
 
 .card-text {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .card-img-top {
     padding: 10px;
+
    
+}
+
+.address {
+    font-size: 12px;
 }
 
 
