@@ -1,7 +1,7 @@
 
 
 // banner slides up.
-
+/*
 const ban = document.getElementById("banner");
 ban.onclick = slide;
 
@@ -13,17 +13,18 @@ function slide() {
      } 
 }
 
+*/
+
 // functions for showing content & navbar
 
 const n = document.getElementById("nav").style.display = "none";
-
 
 const clear = () => {
     document.getElementById("services").style.display = "none";
     document.getElementById("contact").style.display = "none";
     document.getElementById("content").style.display = "none";    
 }
-
+/*
 const moveBanner = () => {
     const ban = document.getElementById("banner");
     let pos = 0;
@@ -40,6 +41,9 @@ const moveBanner = () => {
     }
 }
 
+*/
+
+
 const createNav = () => {
     var n = document.getElementById("nav");
     if (n.style.display === "none") {
@@ -55,6 +59,7 @@ const createContent = () => {
     var x = document.getElementById("content");
     if (x.style.display === "none") {
         x.style.display = "block";
+        logoFin();
     } else {
         x.style.display = "none";
     }
@@ -67,6 +72,7 @@ const createServices = () => {
     var s = document.getElementById("services");
     if (s.style.display === "none") {
         s.style.display = "block";
+        logoEng();
     } else {
         s.style.display = "none";
     }
@@ -83,3 +89,18 @@ const createContact = () => {
     }
 }
 
+
+const logoFin = () => {
+    var s = document.getElementById("hanselFin");
+    var e = document.getElementById("hanselEng");
+    s.style.display = "block";
+    e.style.display = "none";
+    
+}
+
+const logoEng = () => {
+    var s = document.getElementById("hanselFin");
+    var e = document.getElementById("hanselEng");
+    e.style.display = "block";
+    s.style.display = "none";
+}

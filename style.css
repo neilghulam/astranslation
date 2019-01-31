@@ -1,7 +1,17 @@
 
-html {
-    background-color: rgb(160, 164, 123);
+@media screen and (max-width: 600px) {
+    #nav {
+        float: none;
+        width: 100%;
+    }
+}
 
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: rgb(160, 164, 123);
+  
 }
 
 #nav {
@@ -9,7 +19,7 @@ html {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 20px;
+    margin-top: 200px;
 
 }
 
@@ -25,6 +35,7 @@ html {
     font-size: 12px;
     box-shadow: 5px  5px 5px rgb(95, 95, 131); 
     font-size: 16px;
+    cursor: pointer;
 }
 
 .btn:active {
@@ -35,7 +46,7 @@ html {
 #banner{
     
     margin: 0 auto;
-    margin-top: 250px;
+    margin-top: 50px;
     position: relative;
     background-color: rgb(162, 187, 137);
     border: 5px solid rgb(96, 125, 66);
@@ -47,7 +58,7 @@ html {
     width: 900px;
     z-index: 1;
     box-shadow: 10px 10px 5px grey;
-    cursor: pointer;
+   
 } 
 
 #lg {
@@ -65,11 +76,10 @@ html {
 
 #motto {
     float: left;
-    padding-left: 180px;
+    padding-left: 120px;
     padding-right: 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     transition: all 1s;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -93,7 +103,7 @@ html {
 #content, #services {
     position: relative;
     margin: 0 auto;
-    margin-top: -50px;
+    margin-top: 130px;
     background-color: rgb(162, 187, 137);
     border: 5px solid rgb(96, 125, 66);
     box-shadow: #000;
@@ -120,7 +130,7 @@ html {
 #con1, #con2 {
     position: static;
     margin: 20px;
-    margin-top: auto;
+    margin-top: 130px;
     display: inline-block;
     background-color: rgb(162, 187, 137);
     border: 5px solid rgb(67, 115, 19);
@@ -205,28 +215,6 @@ section {
     to   { opacity: 1; }
 }
 
-/* Firefox < 16 */
-@-moz-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
 
-/* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Internet Explorer */
-@-ms-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
-/* Opera < 12.1 */
-@-o-keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
 
 
